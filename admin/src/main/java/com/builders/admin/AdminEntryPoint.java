@@ -22,6 +22,8 @@ public class AdminEntryPoint {
         System.out.println("You say " + Arrays.deepToString(args) + ", I say " + hello + " " + helloFromService);
 
 
+
+
     }
 
 }
