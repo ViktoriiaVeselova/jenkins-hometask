@@ -20,6 +20,4 @@ build/
 *.ipr
 
 /web/target/
-/gradle/
-!gradle/wrapper/gradle-wrapper.jar
 /admin/target/
