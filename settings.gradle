@@ -1,0 +1,6 @@
+rootProject.name = 'builders-hometask'
+
+include 'utils'
+include 'services'
+include 'admin'
+include 'web'

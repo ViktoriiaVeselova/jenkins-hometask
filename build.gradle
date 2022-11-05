@@ -1,0 +1,15 @@
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    test {
+        useJUnit()
+    }
+
+    dependencies {
+        testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+    }
+}
