@@ -9,7 +9,6 @@
         <version>1.0</version>
     </parent>
     <artifactId>services</artifactId>
-    <packaging>pom</packaging>
     <name>Services</name>
 
     <dependencies>

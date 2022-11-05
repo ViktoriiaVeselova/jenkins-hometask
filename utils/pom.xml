@@ -9,6 +9,5 @@
         <version>1.0</version>
     </parent>
     <artifactId>utils</artifactId>
-    <packaging>pom</packaging>
     <name>Utils</name>
 </project>
