@@ -2,7 +2,6 @@
 !.mvn/wrapper/maven-wrapper.jar
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 ### STS ###
@@ -22,4 +21,5 @@ build/
 
 /web/target/
 /gradle/
+!gradle/wrapper/gradle-wrapper.jar
 /admin/target/
