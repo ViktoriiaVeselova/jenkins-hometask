@@ -20,6 +20,7 @@ public class HelloServletTest {
             e.printStackTrace();
         }
         Assert.assertNotNull(properties.getProperty("test_hello"));
+
     }
 
 }
