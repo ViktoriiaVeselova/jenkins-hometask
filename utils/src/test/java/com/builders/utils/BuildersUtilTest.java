@@ -12,14 +12,14 @@ public class BuildersUtilTest {
 
     @Test
     public void testHello() {
-        InputStream stream = BuildersUtil.class.getClassLoader().getResourceAsStream("utils_config_test.properties");
+        InputStream stream = BuildersUti.class.getClassLoader().getResourceAsStream("utils_config_test.properties");
         Properties properties = new Properties();
         try {
             properties.load(stream);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Assert.assertNotNull(properties.getProperty("test_hello1"));
+        Assert.assertNotNull(properties.getProperty("test_hello"));
     }
 
 }
