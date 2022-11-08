@@ -19,7 +19,7 @@ public class BuildersUtilTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Assert.assertNotNull(properties.getProperty("test_hello"));
+        Assert.assertNotNull(properties.getProperty("test_hello1"));
     }
 
 }
