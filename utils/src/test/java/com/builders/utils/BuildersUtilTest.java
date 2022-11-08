@@ -12,7 +12,7 @@ public class BuildersUtilTest {
 
     @Test
     public void testHello() {
-        InputStream stream = BuildersUti.class.getClassLoader().getResourceAsStream("utils_config_test.properties");
+        InputStream stream = BuildersUtil.class.getClassLoader().getResourceAsStream("utils_config_test.properties");
         Properties properties = new Properties();
         try {
             properties.load(stream);
